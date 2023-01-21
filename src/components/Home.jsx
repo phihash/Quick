@@ -11,7 +11,7 @@ const Home = () => {
     {/* p-3は下のエリアに合わせている */}
     <div className='flex flex-wrap my-6 '>
         {symptoms.map((item) => (
-          <SymptomItem key={item.id} obj={item}>
+          <SymptomItem key={item.title} obj={item}>
           </SymptomItem>
         ))}
     </div>
