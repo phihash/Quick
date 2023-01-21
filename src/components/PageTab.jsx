@@ -3,7 +3,7 @@ import 'react-tabs/style/react-tabs.css';
 
 function PageTab({body}) {
   const classes = {
-    base:'text-gray-600 py-3 lg:px-10 px-4 block hover:text-sky-500 outline-none text-sm lg:text-lg',
+    base:'text-gray-600 py-3 lg:px-10 px-3 block hover:text-sky-500 outline-none text-xs lg:text-lg',
     selected: 'text-blue-500 border-b-2 font-bold border-blue-500',
     notSelected: '',
   }

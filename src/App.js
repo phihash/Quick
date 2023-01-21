@@ -12,7 +12,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div class='mx-auto w-3/4'>
+      <div class='mx-auto w-10/12'>
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home />} />
