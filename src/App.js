@@ -5,8 +5,11 @@ import Footer from './components/Footer';
 import CoughPage from './components/CoughPage';
 import Home from './components/Home';
 import Header from './components/Header';
+import EdemaPage from './components/EdemaPage';
+import FeverPage from './components/FeverPage';
 
 function App() {
+
   return (
     <BrowserRouter>
       <div class='mx-auto w-3/4'>
@@ -14,6 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cough" element={<CoughPage />} />
+        <Route path="/edema" element={<EdemaPage />} />
+        <Route path="/fever" element={<FeverPage />} />
       </Routes>
 
      </div>
