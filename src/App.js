@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         {symptoms.map((item) => (
-          <Route path={item.link} key={item.title} element={<TemplatePage data={{title:item.title,path:item.path}} />} >
+          <Route path={item.link} key={item.title} element={<TemplatePage data={{title:item.title,path:item.path,element:item.element}} />} >
           </Route>
         ))}
         {/* <Route path="/cough" element={<CoughPage />} />
