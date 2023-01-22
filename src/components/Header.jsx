@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <Link to="/">
-      <h1 className="text-4xl text-center my-10 font-bold">
+      <h1 className="text-5xl text-center my-10 font-bold">
         Quick
       </h1>
       </Link>

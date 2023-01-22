@@ -57,7 +57,7 @@ const Edema = () => {
             参考
           </h3>
           {/* 以下参考 */}
-            <a href="https://hospital.tottori.tottori.jp/files/20180815154935.pdf">モーニングルーティン</a>
+            <a rel="noopener noreferrer" target="_blank" href="https://hospital.tottori.tottori.jp/files/20180815154935.pdf">モーニングルーティン</a>
         </div>
     </div>
   )

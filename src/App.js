@@ -7,6 +7,7 @@ import Header from './components/Header';
 import { useContext} from 'react';
 import QuickContext from '.';
 import TemplatePage from './components/TemplatePage';
+import Error404 from './components/Error404';
 
 function App() {
   const symptoms = useContext(QuickContext);
@@ -22,9 +23,8 @@ function App() {
           <Route path={item.link} key={item.title} element={<TemplatePage data={{title:item.title,path:item.path,element:item.element}} />} >
           </Route>
         ))}
-        {/* <Route path="/cough" element={<CoughPage />} />
-        <Route path="/edema" element={<EdemaPage />} />
-        <Route path="/fever" element={<FeverPage />} /> */}
+
+        <Route path="*" element={<Error404/>} />
       </Routes>
 
      </div>
